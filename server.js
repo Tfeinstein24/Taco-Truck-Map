@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var methodOverride = require("method-override");
 // var ejsLayouts = require('express-ejs-layouts');
 var db = require('./models');
 var rowdy = require('rowdy-logger');
@@ -12,6 +13,8 @@ app.use(require('morgan')('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(ejsLayouts);
 app.use(express.static(__dirname + '/public'));
+// Use Method-Override
+app.use(methodOverride("_method"));
 // require our API routes
 require("./routes/api-routes.js")(app);
 // Server will Listen on this port

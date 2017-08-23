@@ -21,19 +21,20 @@
 </head>
 <body>
 <div class="row">
-  <div class="col-md-10">
+  <div class="col-md-12">
     <div id="mapid"></div>
   </div>
+
    <div id="food-trucks-list" class="col-md-2">
-    <h2>Food Trucks</h2>
+    <h2>View Menus</h2>
     <% places.forEach(function(place) { %>
       <div class="btn btn-primary">
         <%= place.name %>
       </div>
     <% }); %>
   </div>
-</div>
 
+<div class="truckForm">
 <h1>Add Your Truck</h1>
 <form action="/places" method="POST">
   <div class="form-group">
@@ -44,7 +45,10 @@
   </div>
   <input type="submit" class="btn btn-primary">
 </form>
+</div>
+</div>
 
+<!-- <div class="truckForm">
 <h1>Update Your Truck</h1>
 <form action="/places/:id?_PUT" method="POST">
   <div class="form-group">
@@ -55,10 +59,8 @@
   </div>
   <input type="submit" class="btn btn-primary">
 </form>
+</div> -->
 
-<div class="row">
-  
-</div>
 <!-- Custom JavaScript File Link -->
 <!-- <script type="text/javascript" src="./js/markers.js"></script> -->
 <script> var markers = <%- JSON.stringify(places) %>; </script>

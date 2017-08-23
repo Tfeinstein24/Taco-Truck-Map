@@ -11,14 +11,14 @@ position: absolute;
 top: 0;
 padding-top: 40%;
 padding-left: 3%;
-z-index: 9999;
+z-index: 5555;
 }
 
 /* Food Trucks List */
 #food-trucks-list {
  width: 250px;
  top: 0;
- padding-left: 85%;
+ padding-left: 90%;
  position: absolute;
- z-index: 9999;
+ z-index: 5555;
 }

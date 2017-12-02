@@ -9,7 +9,7 @@
 width: 250px;
 position: absolute;
 top: 0;
-padding-top: 40%;
+padding-top: 30%;
 padding-left: 3%;
 z-index: 5555;
 }
@@ -21,4 +21,5 @@ z-index: 5555;
  padding-left: 90%;
  position: absolute;
  z-index: 5555;
+ pointer-events: none;
 }

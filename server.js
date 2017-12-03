@@ -18,7 +18,7 @@ app.use(methodOverride("_method"));
 // require our API routes
 require("./routes/api-routes.js")(app);
 // Server will Listen on this port
-var server = app.listen(process.env.PORT || 5050, function() {
+var server = app.listen(process.env.PORT || 3000, function() {
     rowdy.print();
 });
 

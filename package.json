@@ -23,6 +23,7 @@
     "express": "^4.13.4",
     "express-ejs-layouts": "^2.0.0",
     "geocoder": "^0.2.3",
+    "method-override": "^2.3.10",
     "morgan": "^1.7.0",
     "pg": "^4.4.6",
     "pg-hstore": "^2.3.2",

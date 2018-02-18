@@ -1,24 +1,26 @@
 {
   "development": {
-    "username": "root",
+    "username": "tfeinstein",
     "password": "orangelamp22",
-    "database": "food_truck_map",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "database": "foodtruck",
+    "server": "DESKTOP-MAL7QRR\\SQLEXPRESS",
+    "port": 49673,
+    "dialect": "mssql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "tfeinstein",
+    "password": "orangelamp22",
+    "database": "foodtruck",
+    "server": "DESKTOP-MAL7QRR\\SQLEXPRESS",
+    "port": 49673,
+    "dialect": "mssql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql"
+    "username": "tfeinstein",
+    "password": "orangelamp22",
+    "database": "foodtruck",
+    "server": "DESKTOP-MAL7QRR\\SQLEXPRESS",
+    "port": 49673,
+    "dialect": "mssql"
   }
 }

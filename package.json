@@ -29,6 +29,8 @@
     "pg": "^4.4.6",
     "pg-hstore": "^2.3.2",
     "rowdy-logger": "0.0.2",
-    "sequelize": "^3.31.1"
+    "sequelize": "^3.31.2",
+    "sequelize-cli": "^4.0.0",
+    "tedious": "^2.3.1"
   }
 }
